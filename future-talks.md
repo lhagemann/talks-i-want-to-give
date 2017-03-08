@@ -20,7 +20,7 @@ Feedback welcome! Please open an issue or make a pull request.
 ### Abstract
 There is no cloud, it's just someone else's computer.
 
-With the industry move away from datacenters to the cloud, costs and accessibility and speed are balanced against the loss of control, and the need to manage and orchestrate infrastructure in repeateable, automated and auditable manner.  
+With the industry move away from the datacenter to the cloud, costs, accessibility and speed are balanced against the loss of control, and the need to manage and orchestrate infrastructure in repeatable, automated and auditable manner.  
 
 This presentation will share experiences and lessons learned developing a deployment strategy for a cloud-first service. Our goal: initial production deployment of a Serverless Architected service directly from our CI/CD pipeline, with no manual intervention in resource deployoment. 
 
@@ -31,7 +31,7 @@ Using Jenkins as a build tool and Terraform modules for infrastructure codificat
 ### Introduction
 This presentation is intended for Beginner and Intermediate level software developers, and technical managers who are interested in speeding up the time to deployment for cloud based services. 
 
-In the area of sofware automation, the mantra of Infrastructure is Code, is often spouted, but rarely followed. In this presentation I will walk through how a cloud-first service differs in deployment strategy from traditional deployments. 
+In the area of software automation, the mantra of Infrastructure is Code, is often spouted, but rarely followed. In this presentation I will walk through how a cloud-first service differs in deployment strategy from traditional deployments. 
 
 With a Serverless Architecture, the testing and validation of code modifications in a CI/CD pipeline necessitate deploying a testbed infrastructure for automated testing prior to deploying changes into production. This differs from the usual functional test runs due to the need to deploy test-run specific infrastructure. As these are "one-use" resources, ensuring they are properly destroyed after test runs is a crucial part of controlling costs. Using an orchestration tool such as Terraform allows for automating these tasks. 
 
