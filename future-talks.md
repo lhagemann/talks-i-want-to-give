@@ -80,6 +80,14 @@ This presentation will include architecture considerations, deployment strategy 
 	b. monitoring
 	c. self-healing cloud infrastructure
 
+## Introducing Chat to the Enterprise
+A culture and tooling talk. Many organizations have decades of reliance on email for communication. Even if these orgs have just as long experience with distributed team locations, the synchronous nature of Chat is lost. 
+
+* Participation is crucial to buy in. If you are on the team that introduces Chat to an org, it is incumbent upon you to ensure the Chat system is active. 
+* Cat Facts & Karma may be entertaining, but they do nothing to suggest to the enterprise that chat is a valid alternative to email for business communications
+* `@here` and `@all` should be used sparingly. Turn them off in Org-wide channels. 
+* 
+
 ## Less fleshed out ideas
 
 * git training for the CLI impaired
