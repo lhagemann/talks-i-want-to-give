@@ -62,20 +62,25 @@ This presentation will include architecture considerations, deployment strategy 
   a. Repeatability
   b. Audit Trail for Changes
   c. Incorporate into CI/CD pipeline
-3. The Cloud -- it disappears
-4. Terraform Introduction
-5. Terraform Examples of Cloud Infrastructure Definitions
+3. If It's Serverless, why are we deploying like we do servers?
+	a. Consistent set of tools between environments
+	b. It's what we'v got
+	c. Known working model
+4. The Cloud -- it disappears
+5. Terraform Introduction
+6. Terraform Examples of Cloud Infrastructure Definitions
 	a. AWS
 	b. Oracle Bare Metal Cloud
-6. Terraform Example of infrastructure management
+7. Terraform Example of infrastructure management
 	a. plan
 	b. apply
 	c. destroy
-6. Adding Terraform Infrastructure to a build pipeline
+8. Adding Terraform Infrastructure to a build pipeline
 	a. Jenkins as build tool for CI/CD
 		* Why using Docker containers in Jenkins works better than installing tools directly
 	b. Using Terraform Docker Image in Jenkins build job
-7. Topics we didn't have time for
+9. Deploying the Lambda Functions themselves
+10. Topics we didn't have time for
 	a. Multi-cloud deployments
 	b. monitoring
 	c. self-healing cloud infrastructure
