@@ -13,7 +13,7 @@ Feedback welcome! Please open an issue or make a pull request.
 	* what's the value
 
 ## Automating Your Way to the Cloud: Serverless Architecture with Terraform
-* Infrastruce is code
+* Infrastructure is code
 * Terraform is multi-cloud enabled
 * [New Terraform Oracle BMC provider](https://blogs.oracle.com/developers/terraform-and-oracle-bare-metal-cloud-services) released (not official)
 
@@ -22,7 +22,7 @@ There is no cloud, it's just someone else's computer.
 
 With the industry move away from the datacenter to the cloud, costs, accessibility and speed are balanced against the loss of control, and the need to manage and orchestrate infrastructure in repeatable, automated and auditable manner.  
 
-This presentation will share experiences and lessons learned developing a deployment strategy for a cloud-first service. Our goal: initial production deployment of a Serverless Architected service directly from our CI/CD pipeline, with no manual intervention in resource deployoment. 
+This presentation will share experiences and lessons learned developing a deployment strategy for a cloud-first service. Our goal: initial production deployment of a Serverless Architected service directly from our CI/CD pipeline, with no manual intervention in resource deployment. 
 
 Through this talk attendees will be introduced to [Terraform](http://terraform.io), a tool that defines cloud infrastructure in configuration files that can be shared, edited, reviewed, and versioned. 
 
@@ -86,12 +86,27 @@ This presentation will include architecture considerations, deployment strategy 
 	c. self-healing cloud infrastructure
 
 ## Introducing Chat to the Enterprise
-A culture and tooling talk. Many organizations have decades of reliance on email for communication. Even if these orgs have just as long experience with distributed team locations, the synchronous nature of Chat is lost. 
+A culture and tooling talk. Many organizations have decades of reliance on email for communication. Even if these orgs have a long experience with distributed team locations, the synchronous nature of Chat is lost. It is sometimes hard for enterprise orgs to view Chat as a collaboration tool and not just an extension of Instant Messenger or text. 
+
+We'll talk about some of things an individual contributor or a decision influencer can do to ease the transition to chat for Enterprise.
 
 * Participation is crucial to buy in. If you are on the team that introduces Chat to an org, it is incumbent upon you to ensure the Chat system is active. 
 * Cat Facts & Karma may be entertaining, but they do nothing to suggest to the enterprise that chat is a valid alternative to email for business communications
 * `@here` and `@all` should be used sparingly. Turn them off in Org-wide channels. 
-* 
+* Bring ChatOps out of the DevOps realm and into the more general channels  ... Food Truck bot, or Weather bot or "What's on Tap" bot, to get people used to the idea of using chat to query for common questions
+* automated FAQ: Sick of answering the same question all the time? Trigger an auto response on the key phrase (or error message) which links to your wiki page with the answer
+
+
+## Infrastructure As Code: What is it good for?
+We hear about Infrastructure as Code all the time. We've been hearing about it nearly since the advent of configuration management. As the tooling around automating your infrastructure deployments gain popularity, are we hitting some of the same problems we saw with configuration management? We have this one tool, so is everything a nail?
+
+In this talk I will discuss the difference between Configuration Management and Infrastructure as Code; What advantages you have with Infrastructure as code and when perhaps Infrastructure as Code won't work for you. We will discuss and maybe debate(?) what constitutes Infrastructure, and how you want to manage these maybe not so obvious bits of your infrastructure.
+
+* quiver of tools
+* cron jobs
+* DNS
+* monitoring
+
 
 ## Less fleshed out ideas
 
