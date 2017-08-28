@@ -1,0 +1,31 @@
+# Infrastructure as Code: What is it good for?
+
+Abstract:
+We hear about Infrastructure as Code all the time. We've been hearing about it nearly since the advent of configuration management. As the tooling around automating your infrastructure deployments gain popularity, are we hitting some of the same problems we saw with configuration management? We have this one tool, so is everything a nail?
+
+In this talk I will discuss the difference between Configuration Management and Infrastructure as Code; What advantages you have with Infrastructure as code and when perhaps Infrastructure as Code won't work for you. We will discuss and maybe debate(?) what constitutes Infrastructure, and how you want to manage these maybe not so obvious bits of your infrastructure.
+
+
+## Introduction
+* who am I and why should you listen to me
+
+## Infra as Code vs Configuration Management
+* Examples of Config Management
+	* Chef, Puppet, 
+
+* Examples of Infrastructure provisioning tools
+	* Terraform, Foreman, CFEngine
+
+??? where do Ansible & Salt fit in this picture
+
+* quiver of tools
+
+
+
+## What else might be considered Infrastructure?
+* Is it or isn't it?
+	* cron jobs
+	* DNS
+	* Monitoring
+	* Jenkins Pipelines (groovy)
+
