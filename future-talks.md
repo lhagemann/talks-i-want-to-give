@@ -62,5 +62,9 @@ In this talk I will discuss the difference between Configuration Management and 
 
 ## Less fleshed out ideas
 
+* The pain points if early adoption of immature tools
+	* Oracle Cloud Infrastructure -- moving target
+	* Terraform -- rapid feature modifications
+	* No common patterns agreed upon by the community
 * git training for the CLI impaired
 
