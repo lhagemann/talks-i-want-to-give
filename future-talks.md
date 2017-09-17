@@ -17,6 +17,11 @@ Feedback welcome! Please open an issue or make a pull request.
 * Terraform is multi-cloud enabled
 * [New Terraform Oracle BMC provider](https://blogs.oracle.com/developers/terraform-and-oracle-bare-metal-cloud-services) released (not official)
 
+
+https://twitter.com/secvalve/status/869667790034059264
+screen shot on laptop
+
+
 ### Abstract
 There is no cloud, it's just someone else's computer.
 
