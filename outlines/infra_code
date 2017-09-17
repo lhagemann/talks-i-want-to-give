@@ -22,6 +22,11 @@ In this talk I will discuss the difference between Configuration Management and 
 
 
 
+## What really is immutable Infrastructure
+* if you can't get the previous state back, then what is immuteable?
+* artifacts (run chef on DBag change vs recreate instance)
+
+
 ## What else might be considered Infrastructure?
 * Is it or isn't it?
 	* cron jobs
