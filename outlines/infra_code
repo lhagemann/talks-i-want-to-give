@@ -11,15 +11,37 @@ In this talk I will discuss the difference between Configuration Management and 
 
 ## Infra as Code vs Configuration Management
 * Examples of Config Management
-	* Chef, Puppet, 
+	* Chef, Puppet
+		* Configuring the Operating System, services supporting the applications (NTP, DNS, ssh daemon, etc) and often are used for configuration of applications themselves. 
+			* How many people here have distributed application configuration files via a Chef Data Bag? Or written out a file via template. 
+			* Good news, each Chef run you were guaranteed the configuration would be the same, even if someone came along and tweaked it by hand. 
+			* But these tools are not appropriate for declaring what AMI or Network ACLs you system should run on. 
 
 * Examples of Infrastructure provisioning tools
-	* Terraform, Foreman, CFEngine
+	* Virtual Machine provisioning Tools: Foreman, CFEngine
+	* Cloud Tools: Terraform, AWS CloudFormation, Azure Resource Manager Templates, Google Cloud Deployment Manager Templates and OpenStack Heat 
 
 ??? where do Ansible & Salt fit in this picture
 
 * quiver of tools
 
+## Why Infra As Code?
+
+### Treat our infrastructure like we treat our application code. 
+	* This is so much more important now in the day of Cloud comupting and microservices
+  a. Repeatability
+  b. Audit Trail for Changes
+  c. Code Review
+  d. Versioning
+  e. Testing
+  f. Scalability
+  
+
+### It's the Cloud. Things evaporate
+* Consistent infrastructure between Dev, Testing, Staging & Production
+* Automated Testing, on automatically deployed infrastructure
+* Incorporate Infra structure provisiongin into a CI/CD pipeline
+	* chain together infrastructure, configuration management, and build artifacts
 
 
 ## What really is immutable Infrastructure
@@ -31,6 +53,11 @@ In this talk I will discuss the difference between Configuration Management and 
 * Is it or isn't it?
 	* cron jobs
 	* DNS
-	* Monitoring
-	* Jenkins Pipelines (groovy)
+	* Monitoring & Metrics (dare I say 'Observability?')
+	* Jenkins Pipelines (groovy) or Artifact Build jobs/definitions
+	* Packer Templates
+	* Storage
+	* Source Code Version Control organizations
+	* Pager Duty 
+
 
