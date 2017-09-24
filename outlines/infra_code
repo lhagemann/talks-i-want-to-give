@@ -1,0 +1,63 @@
+# Infrastructure as Code: What is it good for?
+
+Abstract:
+We hear about Infrastructure as Code all the time. We've been hearing about it nearly since the advent of configuration management. As the tooling around automating your infrastructure deployments gain popularity, are we hitting some of the same problems we saw with configuration management? We have this one tool, so is everything a nail?
+
+In this talk I will discuss the difference between Configuration Management and Infrastructure as Code; What advantages you have with Infrastructure as code and when perhaps Infrastructure as Code won't work for you. We will discuss and maybe debate(?) what constitutes Infrastructure, and how you want to manage these maybe not so obvious bits of your infrastructure.
+
+
+## Introduction
+* who am I and why should you listen to me
+
+## Infra as Code vs Configuration Management
+* Examples of Config Management
+	* Chef, Puppet
+		* Configuring the Operating System, services supporting the applications (NTP, DNS, ssh daemon, etc) and often are used for configuration of applications themselves. 
+			* How many people here have distributed application configuration files via a Chef Data Bag? Or written out a file via template. 
+			* Good news, each Chef run you were guaranteed the configuration would be the same, even if someone came along and tweaked it by hand. 
+			* But these tools are not appropriate for declaring what AMI or Network ACLs you system should run on. 
+
+* Examples of Infrastructure provisioning tools
+	* Virtual Machine provisioning Tools: Foreman, CFEngine
+	* Cloud Tools: Terraform, AWS CloudFormation, Azure Resource Manager Templates, Google Cloud Deployment Manager Templates and OpenStack Heat 
+
+??? where do Ansible & Salt fit in this picture
+
+* quiver of tools
+
+## Why Infra As Code?
+
+### Treat our infrastructure like we treat our application code. 
+	* This is so much more important now in the day of Cloud comupting and microservices
+  a. Repeatability
+  b. Audit Trail for Changes
+  c. Code Review
+  d. Versioning
+  e. Testing
+  f. Scalability
+  
+
+### It's the Cloud. Things evaporate
+* Consistent infrastructure between Dev, Testing, Staging & Production
+* Automated Testing, on automatically deployed infrastructure
+* Incorporate Infra structure provisiongin into a CI/CD pipeline
+	* chain together infrastructure, configuration management, and build artifacts
+
+
+## What really is immutable Infrastructure
+* if you can't get the previous state back, then what is immuteable?
+* artifacts (run chef on DBag change vs recreate instance)
+
+
+## What else might be considered Infrastructure?
+* Is it or isn't it?
+	* cron jobs
+	* DNS
+	* Monitoring & Metrics (dare I say 'Observability?')
+	* Jenkins Pipelines (groovy) or Artifact Build jobs/definitions
+	* Packer Templates
+	* Storage
+	* Source Code Version Control organizations
+	* Pager Duty 
+
+
