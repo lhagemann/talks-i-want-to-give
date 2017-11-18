@@ -2,6 +2,18 @@
 
 Feedback welcome! Please open an issue or make a pull request.
 
+## Deconstructing Terraform cidrsubnet function
+Based on my blog post http://blog.itsjustcode.net/blog/2017/11/18/terraform-cidrsubnet-deconstructed/
+
+This talk would be relatively technical discussing Cloud Platform Networking and subnets. Using examples of Terraform for defining Infrastructure as Code, and demonstrating using the builtin `cidrsubnet()` function to programatically define subnets. 
+
+Potentail for expanding into other Terraform builtin functions.
+
+### Abstract
+
+A practical discussion around utilizing the Terraform tool from Hashicorp to define your cloud network infrastructure. Special attention is given to the useful but ambiguous built-in function `cidrsubnet()`. Using this function wisely allows us to build re-useable modules, abstracting the subnetwork management away from the compute instance provisioing. 
+
+
 ## Polychronic vs Monochronic culture and DevOps
 * needs a title for sure
 * A monochronic time system means that things are done one at a time and time is segmented into precise, small units. Under this system, time is scheduled, arranged and managed.
@@ -48,16 +60,6 @@ We'll talk about some of things an individual contributor or a decision influenc
 * Bring ChatOps out of the DevOps realm and into the more general channels  ... Food Truck bot, or Weather bot or "What's on Tap" bot, to get people used to the idea of using chat to query for common questions
 * automated FAQ: Sick of answering the same question all the time? Trigger an auto response on the key phrase (or error message) which links to your wiki page with the answer
 
-
-## Infrastructure As Code: What is it good for?
-We hear about Infrastructure as Code all the time. We've been hearing about it nearly since the advent of configuration management. As the tooling around automating your infrastructure deployments gain popularity, are we hitting some of the same problems we saw with configuration management? We have this one tool, so is everything a nail?
-
-In this talk I will discuss the difference between Configuration Management and Infrastructure as Code; What advantages you have with Infrastructure as code and when perhaps Infrastructure as Code won't work for you. We will discuss and maybe debate(?) what constitutes Infrastructure, and how you want to manage these maybe not so obvious bits of your infrastructure.
-
-* quiver of tools
-* cron jobs
-* DNS
-* monitoring
 
 
 ## Less fleshed out ideas

@@ -1,5 +1,18 @@
 # Talks I've Given
 
+## Infrastructure As Code: What is it good for?
+* [Keep It Low Conf 2017](https://keepitlow.co/talks/index.html)
+
+We hear about Infrastructure as Code all the time. We've been hearing about it nearly since the advent of configuration management. As the tooling around automating your infrastructure deployments gain popularity, are we hitting some of the same problems we saw with configuration management? We have this one tool, so is everything a nail?
+
+In this talk I will discuss the difference between Configuration Management and Infrastructure as Code; What advantages you have with Infrastructure as code and when perhaps Infrastructure as Code won't work for you. We will discuss and maybe debate(?) what constitutes Infrastructure, and how you want to manage these maybe not so obvious bits of your infrastructure.
+
+* quiver of tools
+* cron jobs
+* DNS
+* monitoring
+
+
 ## DevOps is an Attitude
 * [SeaGL 2014](http://seagl.org/schedule/2014.html)
 
