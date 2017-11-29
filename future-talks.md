@@ -14,8 +14,8 @@ Potentail for expanding into other Terraform builtin functions.
 A practical discussion around utilizing the Terraform tool from Hashicorp to define your cloud network infrastructure. Special attention is given to the useful but ambiguous built-in function `cidrsubnet()`. Using this function wisely allows us to build re-useable modules, abstracting the subnetwork management away from the compute instance provisioing. 
 
 
-## Polychronic vs Monochronic culture and DevOps
-* needs a title for sure
+## Through the Looking Glass: Time is Perception
+### Polychronic vs Monochronic culture and DevOps
 
 ### Abstract
 Time is relative. Or, Time is absolute. Both of these statements can be true depending on your personality, or the culture you were raised in. Working with people who do not see time in the same manner can be frustrating and lead to conflict. 
